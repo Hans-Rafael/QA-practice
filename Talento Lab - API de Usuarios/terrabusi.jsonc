@@ -8,7 +8,7 @@
     "productos": [
         /*PRODUCTO #1*/
         {
-            "producto": "Galletita Oreo",
+            "producto": "Galletitas Oreo",
             "sabor": "Chocolate",
             "peso": [
                 "150g",
@@ -22,79 +22,84 @@
                     "azucar": true,
                     "aceite_vegetal": true
                 }
-            ]
+            ],
+            "precio": "$850"
         },
         /*PRODUCTO #2*/
         {
-            "producto": "Galletita Oreo",
-            "sabor": "Chocolate",
+            "producto": "Galletitas Pepitos",
+            "sabor": "Chips de Chocolate",
             "peso": [
-                "150g",
-                "300g"
+                "100g",
+                "200g"
             ],
-            "vencimiento": "2025-12-31",
+            "vencimiento": "2025-11-30",
             "tacc": true,
             "ingredientes": [
                 {
                     "harina_de_trigo": true,
-                    "azucar": true,
-                    "aceite_vegetal": true
+                    "chips_chocolate": true,
+                    "manteca": true
                 }
-            ]
+            ],
+            "precio": "$650"
         },
         /*PRODUCTO #3*/
         {
-            "producto": "Galletita Oreo",
-            "sabor": "Chocolate",
+            "producto": "Galletitas Sonrisas",
+            "sabor": "Vainilla",
             "peso": [
-                "150g",
-                "300g"
+                "120g",
+                "240g"
             ],
-            "vencimiento": "2025-12-31",
+            "vencimiento": "2025-10-15",
             "tacc": true,
             "ingredientes": [
                 {
                     "harina_de_trigo": true,
-                    "azucar": true,
-                    "aceite_vegetal": true
+                    "esencia_vainilla": true,
+                    "huevo": true
                 }
-            ]
+            ],
+            "precio": "$720"
         },
         /*PRODUCTO #4*/
         {
-            "producto": "Galletita Oreo",
-            "sabor": "Chocolate",
+            "producto": "Galletitas Mellizas",
+            "sabor": "Dulce de Leche",
             "peso": [
-                "150g",
-                "300g"
+                "180g",
+                "360g"
             ],
-            "vencimiento": "2025-12-31",
+            "vencimiento": "2025-09-20",
             "tacc": true,
             "ingredientes": [
                 {
                     "harina_de_trigo": true,
-                    "azucar": true,
-                    "aceite_vegetal": true
+                    "dulce_de_leche": true,
+                    "leche_en_polvo": true
                 }
-            ]
+            ],
+            "precio": "$950"
         },
-        /*PRODUCTO #4*/
+        /*PRODUCTO #5*/
         {
-            "producto": "Galletita Oreo",
-            "sabor": "Chocolate",
+            "producto": "Galletitas Criollitas",
+            "sabor": "Membrillo",
             "peso": [
-                "150g",
-                "300g"
+                "140g",
+                "280g"
             ],
-            "vencimiento": "2025-12-31",
+            "vencimiento": "2025-08-10",
             "tacc": true,
             "ingredientes": [
                 {
                     "harina_de_trigo": true,
-                    "azucar": true,
-                    "aceite_vegetal": true
+                    "dulce_membrillo": true,
+                    "grasa_vegetal": true
                 }
-            ]
+            ],
+            "precio": "$780"
         }
     ]
 }

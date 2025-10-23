@@ -1,0 +1,100 @@
+{
+    "empresa": "Terrabusi",
+    "ciudad_origen": "Buenos Aires",
+    "direccion": "Av. Siempre Viva 123",
+    "correo": "terrabusi@terrabusi.com",
+    "telefono": "+54 11 1234-5678",
+    "inauguracion": "1911-05-15",
+    "productos": [
+        /*PRODUCTO #1*/
+        {
+            "producto": "Galletita Oreo",
+            "sabor": "Chocolate",
+            "peso": [
+                "150g",
+                "300g"
+            ],
+            "vencimiento": "2025-12-31",
+            "tacc": true,
+            "ingredientes": [
+                {
+                    "harina_de_trigo": true,
+                    "azucar": true,
+                    "aceite_vegetal": true
+                }
+            ]
+        },
+        /*PRODUCTO #2*/
+        {
+            "producto": "Galletita Oreo",
+            "sabor": "Chocolate",
+            "peso": [
+                "150g",
+                "300g"
+            ],
+            "vencimiento": "2025-12-31",
+            "tacc": true,
+            "ingredientes": [
+                {
+                    "harina_de_trigo": true,
+                    "azucar": true,
+                    "aceite_vegetal": true
+                }
+            ]
+        },
+        /*PRODUCTO #3*/
+        {
+            "producto": "Galletita Oreo",
+            "sabor": "Chocolate",
+            "peso": [
+                "150g",
+                "300g"
+            ],
+            "vencimiento": "2025-12-31",
+            "tacc": true,
+            "ingredientes": [
+                {
+                    "harina_de_trigo": true,
+                    "azucar": true,
+                    "aceite_vegetal": true
+                }
+            ]
+        },
+        /*PRODUCTO #4*/
+        {
+            "producto": "Galletita Oreo",
+            "sabor": "Chocolate",
+            "peso": [
+                "150g",
+                "300g"
+            ],
+            "vencimiento": "2025-12-31",
+            "tacc": true,
+            "ingredientes": [
+                {
+                    "harina_de_trigo": true,
+                    "azucar": true,
+                    "aceite_vegetal": true
+                }
+            ]
+        },
+        /*PRODUCTO #4*/
+        {
+            "producto": "Galletita Oreo",
+            "sabor": "Chocolate",
+            "peso": [
+                "150g",
+                "300g"
+            ],
+            "vencimiento": "2025-12-31",
+            "tacc": true,
+            "ingredientes": [
+                {
+                    "harina_de_trigo": true,
+                    "azucar": true,
+                    "aceite_vegetal": true
+                }
+            ]
+        }
+    ]
+}

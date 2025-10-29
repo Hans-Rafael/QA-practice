@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="UTF-8" ?>
- <root>
-     <empresa>Terrabusi</empresa>
-     <ciudad_origen>Buenos Aires</ciudad_origen>
-     <direccion>Av. Siempre Viva 123</direccion>
-     <correo>terrabusi@terrabusi.com</correo>
-     <telefono>+54 11 1234-5678</telefono>
-     <inauguracion>1911-05-15</inauguracion>
-     <productos>
-         <producto>Galletitas Oreo</producto>
-         <sabor>Chocolate</sabor>
-         <peso>150g</peso>
-         <peso>300g</peso>
-         <vencimiento>2025-12-31</vencimiento>
-         <tacc>true</tacc>
-         <ingredientes>
-             <harina_de_trigo>true</harina_de_trigo>
-             <azucar>true</azucar>
-             <aceite_vegetal>true</aceite_vegetal>
-         </ingredientes>
-         <precio>$850</precio>
-     </productos>
-     <productos>
-         <producto>Galletitas Pepitos</producto>
-         <sabor>Chips de Chocolate</sabor>
-         <peso>100g</peso>
-         <peso>200g</peso>
-         <vencimiento>2025-11-30</vencimiento>
-         <tacc>true</tacc>
-         <ingredientes>
-             <harina_de_trigo>true</harina_de_trigo>
-             <chips_chocolate>true</chips_chocolate>
-             <manteca>true</manteca>
-         </ingredientes>
-         <precio>$650</precio>
-     </productos>
-     <productos>
-         <producto>Galletitas Sonrisas</producto>
-         <sabor>Vainilla</sabor>
-         <peso>120g</peso>
-         <peso>240g</peso>
-         <vencimiento>2025-10-15</vencimiento>
-         <tacc>true</tacc>
-         <ingredientes>
-             <harina_de_trigo>true</harina_de_trigo>
-             <esencia_vainilla>true</esencia_vainilla>
-             <huevo>true</huevo>
-         </ingredientes>
-         <precio>$720</precio>
-     </productos>
-     <productos>
-         <producto>Galletitas Mellizas</producto>
-         <sabor>Dulce de Leche</sabor>
-         <peso>180g</peso>
-         <peso>360g</peso>
-         <vencimiento>2025-09-20</vencimiento>
-         <tacc>true</tacc>
-         <ingredientes>
-             <harina_de_trigo>true</harina_de_trigo>
-             <dulce_de_leche>true</dulce_de_leche>
-             <leche_en_polvo>true</leche_en_polvo>
-         </ingredientes>
-         <precio>$950</precio>
-     </productos>
-     <productos>
-         <producto>Galletitas Criollitas</producto>
-         <sabor>Membrillo</sabor>
-         <peso>140g</peso>
-         <peso>280g</peso>
-         <vencimiento>2025-08-10</vencimiento>
-         <tacc>true</tacc>
-         <ingredientes>
-             <harina_de_trigo>true</harina_de_trigo>
-             <dulce_membrillo>true</dulce_membrillo>
-             <grasa_vegetal>true</grasa_vegetal>
-         </ingredientes>
-         <precio>$780</precio>
-     </productos>
- </root>
+<?xml version = "1.0" encoding="UTF-8">
+<root>
+    <empresa>Terrabusi</empresa>
+    <ciudad_origen>"Buenos Aires"</ciudad_origen>
+    <direccion>"Av. Siempre Viva 123"</direccion>
+    <correo>terrabusi@terrabusi.com</correo>
+    <telefono>"+54 11 1234-5678"</telefono>
+    <inauguracion>"1911-05-15"</inauguracion>
+    <productos>
+        <producto>
+            <nombre>Galletitas Oreo</nombre>
+            <sabor>Chocolate</sabor>
+            <peso>
+                <opcion>150g</opcion>
+                <opcion>300g</opcion>
+            </peso>
+            <vencimiento>"2025-12-31"</vencimiento>
+            <tacc>true</tacc>
+            <ingredientes>
+                <harina_de_trigo>true</harina_de_trigo>
+                <azucar>true</azucar>
+                <aceite_vegetal>true</aceite_vegetal>
+            </ingredientes>
+            <precio>$850</precio>
+        </producto>
+        <producto>
+            <nombre>Galletitas Pepitos</nombre>
+            <sabor>Chips de Chocolate</sabor>
+            <peso>
+                <opcion>100g</opcion>
+                <opcion>200g</opcion>
+            </peso>
+            <vencimiento>"2025-11-30"</vencimiento>
+            <tacc>true</tacc>
+            <ingredientes>
+                <harina_de_trigo>true</harina_de_trigo>
+                <chips_chocolate>true</chips_chocolate>
+                <manteca>true</manteca>
+            </ingredientes>
+            <precio>$650</precio>
+        </producto>
+        <producto>
+            <nombre>Galletitas Sonrisas</nombre>
+            <sabor>Vainilla</sabor>
+            <peso>
+                <opcion>120g</opcion>
+                <opcion>240g</opcion>
+            </peso>
+            <vencimiento>"2025-10-15"</vencimiento>
+            <tacc>true</tacc>
+            <ingredientes>
+                <harina_de_trigo>true</harina_de_trigo>
+                <esencia_vainilla>true</esencia_vainilla>
+                <huevo>true</huevo>
+            </ingredientes>
+            <precio>$720</precio>
+        </producto>
+        <producto>
+            <nombre>Galletitas Mellizas</nombre>
+            <sabor>Dulce de Leche</sabor>
+            <peso>
+                <opcion>180g</opcion>
+                <opcion>360g</opcion>
+            </peso>
+            <vencimiento>"2025-09-20" </vencimiento>
+            <tacc>true</tacc>
+            <ingredientes>
+                <harina_de_trigo>true</harina_de_trigo>
+                <dulce_de_leche>true</dulce_de_leche>
+                <azucar>true</azucar>
+            </ingredientes>
+            <precio>"$950"</precio>
+        </producto>
+        <producto>
+            <nombre> "Galletitas Criollitas"</nombre>
+            <sabor>"membrillo"</sabor>
+            <peso>
+                <opcion>"140g"</opcion>
+                <opcion>"280g"</opcion>
+            </peso>
+            <vencimiento>"2025-08-10"</vencimiento>
+            <tacc>true</tacc>
+            <ingredientes>
+                <harina_de_trigo>true</harina_de_trigo>
+                <membrillo>true</membrillo>
+                <grasa_vegetal>true</grasa_vegetal>
+            </ingredientes>
+            <precio>"$780"</precio>
+        </producto>
+    </productos>
+</root>

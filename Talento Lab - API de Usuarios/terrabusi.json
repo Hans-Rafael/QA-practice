@@ -1,6 +1,3 @@
-/*reinstalrar servidor json npm i*/
-/*Recordar que si quiero ver los end point usar*/
-/*npx json-server --watch terrabusi.json --port 3000*/
 {
     "empresa": "Terrabusi",
     "ciudad_origen": "Buenos Aires",
@@ -9,8 +6,8 @@
     "telefono": "+54 11 1234-5678",
     "inauguracion": "1911-05-15",
     "productos": [
-        /*PRODUCTO #1*/
         {
+            "id": 1,
             "producto": "Galletitas Oreo",
             "sabor": "Chocolate",
             "peso": [
@@ -28,8 +25,8 @@
             ],
             "precio": "$850"
         },
-        /*PRODUCTO #2*/
         {
+            "id": 2,
             "producto": "Galletitas Pepitos",
             "sabor": "Chips de Chocolate",
             "peso": [
@@ -47,8 +44,8 @@
             ],
             "precio": "$650"
         },
-        /*PRODUCTO #3*/
         {
+            "id": 3,
             "producto": "Galletitas Sonrisas",
             "sabor": "Vainilla",
             "peso": [
@@ -66,8 +63,8 @@
             ],
             "precio": "$720"
         },
-        /*PRODUCTO #4*/
         {
+            "id": 4,
             "producto": "Galletitas Mellizas",
             "sabor": "Dulce de Leche",
             "peso": [
@@ -85,8 +82,8 @@
             ],
             "precio": "$950"
         },
-        /*PRODUCTO #5*/
         {
+            "id": 5,
             "producto": "Galletitas Criollitas",
             "sabor": "Membrillo",
             "peso": [

@@ -39,3 +39,5 @@ Necesitamos una API el cual contenga como mínimo 5 marcas asociadas a la empres
 4. **Correo**: valor
 5. **Teléfono**: valor
 6. **Inauguración**: valor
+
+Para instalar el servidor json hacer npm install

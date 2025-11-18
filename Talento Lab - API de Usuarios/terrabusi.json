@@ -1,105 +1,105 @@
 {
-    "empresa": "Terrabusi",
-    "ciudad_origen": "Buenos Aires",
-    "direccion": "Av. Siempre Viva 123",
-    "correo": "terrabusi@terrabusi.com",
-    "telefono": "+54 11 1234-5678",
-    "inauguracion": "1911-05-15",
-    "productos": [
+  "empresa": "Terrabusi",
+  "ciudad_origen": "Buenos Aires",
+  "direccion": "Av. Siempre Viva 123",
+  "correo": "terrabusi@terrabusi.com",
+  "telefono": "+54 11 1234-5678",
+  "inauguracion": "1911-05-15",
+  "productos": [
+    {
+      "id": "1",
+      "producto": "Galletitas Oreo",
+      "sabor": "Chocolate",
+      "peso": [
+        "150g",
+        "300g"
+      ],
+      "vencimiento": "2025-12-31",
+      "tacc": true,
+      "ingredientes": [
         {
-            "id": 1,
-            "producto": "Galletitas Oreo",
-            "sabor": "Chocolate",
-            "peso": [
-                "150g",
-                "300g"
-            ],
-            "vencimiento": "2025-12-31",
-            "tacc": true,
-            "ingredientes": [
-                {
-                    "harina_de_trigo": true,
-                    "azucar": true,
-                    "aceite_vegetal": true
-                }
-            ],
-            "precio": "$850"
-        },
-        {
-            "id": 2,
-            "producto": "Galletitas Pepitos",
-            "sabor": "Chips de Chocolate",
-            "peso": [
-                "100g",
-                "200g"
-            ],
-            "vencimiento": "2025-11-30",
-            "tacc": true,
-            "ingredientes": [
-                {
-                    "harina_de_trigo": true,
-                    "chips_chocolate": true,
-                    "manteca": true
-                }
-            ],
-            "precio": "$650"
-        },
-        {
-            "id": 3,
-            "producto": "Galletitas Sonrisas",
-            "sabor": "Vainilla",
-            "peso": [
-                "120g",
-                "240g"
-            ],
-            "vencimiento": "2025-10-15",
-            "tacc": true,
-            "ingredientes": [
-                {
-                    "harina_de_trigo": true,
-                    "esencia_vainilla": true,
-                    "huevo": true
-                }
-            ],
-            "precio": "$720"
-        },
-        {
-            "id": 4,
-            "producto": "Galletitas Mellizas",
-            "sabor": "Dulce de Leche",
-            "peso": [
-                "180g",
-                "360g"
-            ],
-            "vencimiento": "2025-09-20",
-            "tacc": true,
-            "ingredientes": [
-                {
-                    "harina_de_trigo": true,
-                    "dulce_de_leche": true,
-                    "leche_en_polvo": true
-                }
-            ],
-            "precio": "$950"
-        },
-        {
-            "id": 5,
-            "producto": "Galletitas Criollitas",
-            "sabor": "Membrillo",
-            "peso": [
-                "140g",
-                "280g"
-            ],
-            "vencimiento": "2025-08-10",
-            "tacc": true,
-            "ingredientes": [
-                {
-                    "harina_de_trigo": true,
-                    "dulce_membrillo": true,
-                    "grasa_vegetal": true
-                }
-            ],
-            "precio": "$780"
+          "harina_de_trigo": true,
+          "azucar": true,
+          "aceite_vegetal": true
         }
-    ]
+      ],
+      "precio": "$850"
+    },
+    {
+      "id": "2",
+      "producto": "Galletitas Pepitos",
+      "sabor": "Chips de Chocolate",
+      "peso": [
+        "100g",
+        "200g"
+      ],
+      "vencimiento": "2025-11-30",
+      "tacc": true,
+      "ingredientes": [
+        {
+          "harina_de_trigo": true,
+          "chips_chocolate": true,
+          "manteca": true
+        }
+      ],
+      "precio": "$650"
+    },
+    {
+      "id": "3",
+      "producto": "Galletitas Sonrisas",
+      "sabor": "Vainilla",
+      "peso": [
+        "120g",
+        "240g"
+      ],
+      "vencimiento": "2025-10-15",
+      "tacc": true,
+      "ingredientes": [
+        {
+          "harina_de_trigo": true,
+          "esencia_vainilla": true,
+          "huevo": true
+        }
+      ],
+      "precio": "$720"
+    },
+    {
+      "id": "4",
+      "producto": "Galletitas Mellizas",
+      "sabor": "Dulce de Leche",
+      "peso": [
+        "180g",
+        "360g"
+      ],
+      "vencimiento": "2025-09-20",
+      "tacc": true,
+      "ingredientes": [
+        {
+          "harina_de_trigo": true,
+          "dulce_de_leche": true,
+          "leche_en_polvo": true
+        }
+      ],
+      "precio": "$950"
+    },
+    {
+      "id": "5",
+      "producto": "Galletitas Criollitas",
+      "sabor": "Membrillo",
+      "peso": [
+        "140g",
+        "280g"
+      ],
+      "vencimiento": "2025-08-10",
+      "tacc": true,
+      "ingredientes": [
+        {
+          "harina_de_trigo": true,
+          "dulce_membrillo": true,
+          "grasa_vegetal": true
+        }
+      ],
+      "precio": "$780"
+    }
+  ]
 }

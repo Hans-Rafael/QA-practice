@@ -1,0 +1,7 @@
+recordar usar json-server --watch terrsbusi.json para correr json server.
+# TerrsBusi API
+para crear un script en el package.json hacer :
+"scripts": {
+    "start:json-server": "json-server --watch terrabusi.json --port 3001"
+} y para que corra escribir en la terminal:
+npm run start:json-server

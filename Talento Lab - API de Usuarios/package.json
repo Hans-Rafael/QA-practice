@@ -6,5 +6,5 @@
   },
   "scripts": {
     "start:json-server": "json-server --watch terrabusi.json --port 3001"
-}
+  }
 }
